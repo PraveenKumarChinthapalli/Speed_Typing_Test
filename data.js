@@ -54,7 +54,7 @@ submitBtnEl.onclick = function() {
     let quote = quoteDisplayEl.textContent;
     if (quote === textEl) {
         resultEl.textContent = "You typed in " + countdown + " seconds";
-        resultEl.style.color = "blue";
+        resultEl.style.color = "#17594A";
         clearInterval(intervalId);
     } else {
         resultEl.textContent = "You typed incorrect sentence";
